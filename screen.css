@@ -1,0 +1,98 @@
+/*================================================
+Reset Styles
+================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin:0; padding:0; font-size:100%; vertical-align:baseline; border:0; outline:0; background:transparent}
+ol, ul{list-style:none}
+blockquote, q{quotes:none}
+table{border-collapse:collapse; border-spacing:0}
+
+/*================================================
+Global Styles
+================================================*/
+
+body {
+  font-size: 100%;
+  font-family: "freight-sans-pro", "helvetica neue", helvetica, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  }
+.container {
+  margin: 0 auto;
+  width: 940px;
+  }
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+a {
+  text-decoration: none;
+  color: #333;
+  }
+a:hover {
+  color: #000;
+  }
+ul {
+  padding: 15px;
+  }
+li {
+  float: left;
+  display: block;
+  margin: 15px;
+  text-align: center;
+  width: 100px;
+  height: 140px;
+  text-transform: uppercase;
+  font-size: .6875em;
+  letter-spacing: 1px;
+  font-weight: normal;
+  }
+h1 {
+  font-size: 2.4em;
+  line-height: 1.2;
+  margin: 30px 30px 0 30px;
+  color: #777;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+  font-weight: normal;
+  border-bottom: 2px solid #aaa;
+  padding-bottom: 30px;
+  }
+
+h1.home {
+  border-bottom: none;
+  padding-bottom: 0;
+  }
+
+p {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 1.25em;
+  }
+
+p a {
+  font-weight: bold;
+  background: #eee;
+  padding: 5px 7px;
+  border-radius: 3px;
+  margin: 0 3px;
+  }
+  
+a .preview {
+  display: block;
+  opacity: .5;
+  border-radius: 5px;
+  font-size: 48pt;
+  height: 100px;
+  text-transform: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover .preview{
+  opacity: 1;
+  }
